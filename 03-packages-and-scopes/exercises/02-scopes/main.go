@@ -27,6 +27,12 @@ package main
 //     1. Call the bye function from
 //        inside the hello function
 // ---------------------------------------------------------
+import "fmt"
+
+func bye() {
+	fmt.Println("bye bye")
+}
 
 func main() {
+	hello()
 }

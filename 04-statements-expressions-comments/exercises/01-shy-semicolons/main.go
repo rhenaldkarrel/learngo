@@ -8,6 +8,11 @@
 
 package main
 
+import (
+	"fmt"
+	"runtime"
+)
+
 // ---------------------------------------------------------
 // EXERCISE: Shy Semicolons
 //
@@ -19,4 +24,5 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	fmt.Print("My CPU cores: "); fmt.Print(runtime.NumCPU())
 }
